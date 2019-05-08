@@ -18,12 +18,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Leevel\Log\Facade;
+namespace Leevel\Log\Proxy;
 
 use Leevel\Di\Container;
 
 /**
- * 门面 log.
+ * 代理 log.
  *
  * @author Xiangmin Liu <635750556@qq.com>
  *
