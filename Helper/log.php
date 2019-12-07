@@ -21,12 +21,12 @@ declare(strict_types=1);
 namespace Leevel\Log\Helper;
 
 use Leevel\Di\Container;
-use Leevel\Log\ILog;
+use Leevel\Log\Manager;
 
 /**
- * 日志服务
+ * 日志服务.
  */
-function log(): ILog
+function log(): Manager
 {
     return Container::singletons()->make('logs');
 }
